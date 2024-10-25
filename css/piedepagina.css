@@ -1,0 +1,83 @@
+footer{
+    background-color: aqua;
+    width: 400px;
+}
+
+.titulo-footer{
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.entregas{
+    display: flex;
+    margin: 10px 10px;
+    text-align: center;
+}
+
+.entregas-info{
+    background-color: #f4f4f4;
+    margin:  10px 10px;
+    padding: 0;
+    width: 100px;
+}
+
+.entrgas-titulo{
+    font-size: 10px;
+}
+
+.entregas-texto{
+    font-size: 8px ;
+    margin-top: 5px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    border-top: 1px solid #ccc; /* Línea superior */
+    border-bottom: 1px solid #ccc; /* Línea inferior */
+    padding: 5px; /* Espacio interno */
+}
+
+.footer-correo{
+    margin-left: 10px;
+}
+
+.descuento{
+    font-size: 12px;
+    margin: 5px 0;
+}
+
+.correo{
+    margin: 5px 5px;
+}
+
+.correo-cuadro{
+    width: 200px;
+}
+
+.correo-cuadro[type="email"]{
+    text-align: center;
+}
+
+.footer-logos{
+    margin-right: 30px;
+    display: flex;
+    gap: 5px;
+}
+
+.logo-final{
+    margin-left: 120px;
+}
+
+.imagen--{
+    width: 40px;
+    height: 50px;
+}
+
+.logo-final-img{
+    width: 150px;
+    height: 150px;
+}
+

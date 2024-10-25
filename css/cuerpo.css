@@ -1,0 +1,104 @@
+main{
+  width: 400px;
+  background-color: white;
+}
+#banner {
+    position: relative; /* Necesario para posicionar elementos hijos de forma absoluta */
+  }
+  
+  #banner img {
+    width: 390px;
+    height: 200px;
+    margin: 5px;
+  }
+  
+  #anterior {
+    position: absolute;
+    top: 30%;
+    transform: translateY(-40%); /* Centra verticalmente los botones */
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente */
+    color: white;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+    margin: 0 10px;
+  }
+  
+  #siguiente {
+    position: absolute;
+    top: 30%;
+    transform: translateY(-40%); /* Centra verticalmente los botones */
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente */
+    color: white;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+   margin-left: 50px;
+
+  }
+
+  #anterior {
+    left: px; /* Posiciona el botón anterior a la izquierda */
+  }
+  
+  #siguiente {
+    right: 5px; /* Posiciona el botón siguiente a la derecha */
+  }
+
+  .categorias{
+    font-size: 24px;
+    text-align: center;
+    margin-top: 80px;
+  }
+
+  .container {
+    display: flex;
+    margin: 0  5px;
+  }
+   
+
+  .productos {
+    width: 70px;
+    padding: 10px;
+    margin: 10px 20px;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 16px;
+    overflow: hidden;
+    text-decoration: none;
+  }
+
+  .productos:hover{
+    border: 2px solid #846f18;
+    font-size: 15px;
+    padding: 15px ;
+  }
+
+  .polo{
+    transition: transform 0.3s ease; 
+  }
+  .polo:hover{
+    transform: scale(1.1);
+  }
+
+ .productos img {
+    width: 70px;
+    height: 190px;
+   }
+
+  .nombre-producto{
+    font-weight: bold;
+    margin-top: 12px;
+    color: #000000;
+    
+  }
+
+  .precio {
+    font-size: 1.2em;
+    color: #007bff;
+    font-size: 10px;
+  }
+
+  .p1{
+    height: 400px;
+  }
